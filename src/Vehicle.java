@@ -1,7 +1,7 @@
 public class Vehicle {
     public Vehicle(){
-        model = "BMW";
-        maxspeed = 400;
+        model = "MERSEDES";
+        maxspeed = 650;
         isDieselFuel = false;
         fuel = 0;
     }
@@ -15,7 +15,7 @@ public class Vehicle {
         return model;
     }
     void drive() {
-        fuel -= 50;
+        fuel -= 80;
         System.out.println("Заводит....");
     }
     void stop(){
